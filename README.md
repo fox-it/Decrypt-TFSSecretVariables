@@ -1,4 +1,4 @@
-# Decrypt-OrchestratorVariables
+# Decrypt-TFSSecretVariables
 
 Within Team Foundation Server (TFS), it is possible to automate the build, testing and deployment of new releases. With the use of variables it is possible to create a generic deployment process once and customize it per environment. Sometimes specific tasks need a set of credentials or other sensitive information and therefor TFS supports encrypted variables. 
 With an encrypted variable the contents of the variables is encrypted in the database and not visible for the user of TFS.
@@ -10,7 +10,7 @@ Usage:
 
 ```
     This tool can be used to decrypt TFS variables. 
-    More information: https://blog.fox-it.com/2018/05/17/introducing-team-foundation-server-decryption-tool
+    More information: https://blog.fox-it.com/2018/05/17/introducing-team-foundation-server-decryption-tool/
 
     Required parameters:
         databaseServer  : DatabaseServer. <localhost\SQLEXPRESS>
